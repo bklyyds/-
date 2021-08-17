@@ -10,13 +10,6 @@
 sql语句如下
 ```aidl
 CREATE TABLE `user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT  PRIMARY KEY ,
-  `name` varchar(45) NOT NULL,
-  `password` varchar(45) NOT NULL,
-  `token` varchar(45) NOT NULL
-);
-
-CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
