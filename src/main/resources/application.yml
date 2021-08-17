@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: root
-    password: 1947834058wyy
+    username: 
+    password: 
     url: jdbc:mysql://127.0.0.1:3306/blog?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
   thymeleaf:
