@@ -7,8 +7,21 @@
 基本能踩得坑都踩了<br>
 后续还会不断持续开发其他功能<br>
 
+截图
+![Image text](https://raw.githubusercontent.com/bklyyds/boke/master/1.jpg)
+![Image text](https://raw.githubusercontent.com/bklyyds/boke/master/3.jpg)
+![Image text](https://raw.githubusercontent.com/bklyyds/boke/master/4.jpg)
+![Image text](https://raw.githubusercontent.com/bklyyds/boke/master/5.jpg)
+
 sql语句如下
 ```aidl
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT  PRIMARY KEY ,
+  `name` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  `token` varchar(45) NOT NULL
+);
+
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
